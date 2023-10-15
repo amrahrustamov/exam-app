@@ -12,6 +12,11 @@ const Main = () => {
         })
     }
 
+    const handleCheckboxChange = (index) => {
+        console.log(index)
+        
+    }
+
     function addTodo(e){
         e.preventDefault();
         console.log(todo.value)
@@ -30,8 +35,11 @@ const Main = () => {
             <button type='submit'>Add</button>
         </form>
         <ul>
-            {todoArr.map((todo,index)=> <li onClick={()=>removeItem(index)}><h5>{index + 1}</h5><p>{todo}</p></li>)}
+            {todoArr.map((todo,index)=> <li key={index}><input type="checkbox" onChange={() => handleCheckboxChange(index)} /><h5>{index + 1}</h5><p>{todo}</p><button onClick={()=>removeItem(index)}>Delete</button></li>)}
         </ul>
+        <div className="footerList">
+            <h5>{todoArr.length} elemets</h5>
+        </div>
     </div>
   )
 }

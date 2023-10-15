@@ -72,6 +72,26 @@ header {
   margin-left: 10px;
   color: rgb(236, 241, 236);
 }
+.main ul li button {
+  margin-left: 20px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.main .footerList {
+  width: 50%;
+  height: 25px;
+  background-color: burlywood;
+  border-radius: 5px;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main .footerList h5 {
+  color: rgb(82, 78, 62);
+}
 
 footer {
   width: 100%;
