@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  min-height: 500px;
+  margin: 0 20% 0 20%;
+  background-color: azure;
+  border: 0.1px solid black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main form {
+  width: 60%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main form input {
+  height: 90%;
+  width: 70%;
+  padding: 0 0px 0 20px;
+  border-radius: 5px 0 0 5px;
+  border: 0.1px solid black;
+}
+.main form button {
+  height: 90%;
+  width: 20%;
+  border-radius: 0 5px 5px 0;
+  border: 0.1px solid black;
+}
+.main ul {
+  list-style-type: none;
+  width: 50%;
+}
+.main ul li {
+  width: 100%;
+  height: 40px;
+  border: 0.1px solid black;
+  border-radius: 8px;
+  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+.main ul li h5 {
+  border: 1px solid none;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px 10px 10px 10px;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(177, 233, 182);
+  background-color: rgb(162, 164, 165);
+}
+.main ul li p {
+  margin-left: 10px;
+  color: rgb(236, 241, 236);
+}
+
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(168, 230, 209);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
