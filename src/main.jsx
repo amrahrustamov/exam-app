@@ -19,7 +19,7 @@ const Main = () => {
 
         if(regex.test(todo)){
             setTodoArr([...todoArr,todo])
-            setTodo("");
+            setTodo(""); 
         }
     }
   return (
